@@ -19,3 +19,5 @@ Description: 这是默认设置,可以在设置》工具》File Description中�
 
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print('列表----',bicycles)
+# 如果你让Python将列表打印出来，Python将打印列表的内部表示，包括方括号：
+# ['trek', 'cannondale', 'redline', 'specialized']
