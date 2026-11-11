@@ -21,3 +21,12 @@ bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print('列表----',bicycles)
 # 如果你让Python将列表打印出来，Python将打印列表的内部表示，包括方括号：
 # ['trek', 'cannondale', 'redline', 'specialized']
+
+# 3.1.1 访问列表元素
+"""
+列表是有序集合，因此要访问列表的任何元素，只需将该元素的位置或索引告诉Python即可。
+要访问列表元素，可指出列表的名称，再指出元素的索引，并将其放在方括号内。
+"""
+# 例如，下面的代码从列表bicycles中提取第一款自行车：
+bicyclesone = ['trek', 'cannondale', 'redline', 'specialized']
+print('提取第一款自行车---',bicyclesone[0])
